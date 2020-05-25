@@ -1,0 +1,92 @@
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header {
+  background-color: coral;
+  color: #fff;
+
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding-right: 1rem;
+}
+
+#showcase {
+  background-image: url('../images/showcase.jpg');
+  background-position: center center;
+  min-height: 20rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#showcase h1 {
+  color: #fff;
+  font-size: 3rem;  
+  line-height: 3.5rem;
+  padding-top: 2rem;
+}
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media(max-width: 600px) {
+  #main {
+    float: none;
+    width: 100%;
+  }
+  
+  #sidebar {
+    float: none;
+    width: 100%;
+  }
+}
