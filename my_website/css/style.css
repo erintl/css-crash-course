@@ -16,7 +16,6 @@ body {
 #main-header {
   background-color: coral;
   color: #fff;
-
 }
 
 #navbar {
@@ -41,7 +40,7 @@ body {
 }
 
 #showcase {
-  background-image: url('../images/showcase.jpg');
+  background-image: url("../images/showcase.jpg");
   background-position: center center;
   min-height: 20rem;
   margin-bottom: 2rem;
@@ -50,7 +49,7 @@ body {
 
 #showcase h1 {
   color: #fff;
-  font-size: 3rem;  
+  font-size: 3rem;
   line-height: 3.5rem;
   padding-top: 2rem;
 }
@@ -79,12 +78,12 @@ body {
   margin-top: 2rem;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   #main {
     float: none;
     width: 100%;
   }
-  
+
   #sidebar {
     float: none;
     width: 100%;
